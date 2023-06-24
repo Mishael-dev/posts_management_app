@@ -5,3 +5,11 @@
 .btn{
   @apply px-4 py-2 rounded capitalize 
 }
+
+.headline{
+  @apply text-2xl md:text-3xl text-blue-400 mt-4 mb-2 capitalize
+}
+
+body{
+  background-color: #f4f4f4;
+}
