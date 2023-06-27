@@ -29,7 +29,7 @@ export default function PostCard({ post }) {
 					</div>
 				</div>
 			</Link>
-			<p className="font-light text-2xl text-gray-400">{body}</p>
+			<p className="font-light text-2xl text-gray-600">{body}</p>
 
 			<span
 				className="text-blue-400 hover:underline pointer"

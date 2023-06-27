@@ -24,7 +24,7 @@ export default function posts() {
 			console.log(posts);
 			setPosts(posts);
 		})();
-	}, [GETPOSTS]);
+	}, [GETPOSTS,posts]);
 
 	const handleCreateBtnClick = () => {
 		router.push("/posts/create");
